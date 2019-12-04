@@ -277,8 +277,8 @@ function getDependencies(parsedPackage, templateDefinition, configurations) {
   if (templateDefinition.name === 'reason') {
     returnedDependencies = {
       ...returnedDependencies,
-      '@jaredly/bs-core': '3.0.0-alpha.2',
-      '@jaredly/reason-react': '0.3.4',
+      '@eschaefer/bs-core': '6.2.1',
+      '@eschaefer/reason-react': '0.7.0',
     };
   }
 
